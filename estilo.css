@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Montserrat";
+}
+
+button {
+  color: white;
+  background-color: rgb(13, 123, 192);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input {
+  padding: 5px;
+  font-size: 15px;
+}
+
+button:hover {
+  border-color: white;
+  background-color: rgb(60, 144, 196);
+  transform: scale(1.05);
+}
+
+
